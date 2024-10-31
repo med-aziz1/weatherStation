@@ -16,5 +16,6 @@ public:
     unsigned long debounceDelay = 50;   // the debounce time; increase if the output flickers
     unsigned long lastTimer = 0;
     unsigned long timerDelay = 15000;
+    int lastMillis = 0;
 };
 extern Display disp;
